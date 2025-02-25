@@ -70,3 +70,20 @@ The solutions and notes to my current leetcode grind!
 - **Swap** the left and right of the root.
 - Call the function recursively, passing in the left and right of the root.
 - Return the root.
+
+### **Valid Anagram**
+-Initialize an empty dictionary to track letters used, and how many times they appear
+-Iterate through the first word 
+  -if the letter is in the dictionary
+    -Increment it by 1
+  -Else instantiate it as 1
+-Iterate through the second word
+  -If the letter is not in the dictionary
+    -Return false
+  -Else
+    -Subtract it by 1
+-Iterate through the dictionary 
+  -if there's any values that aren’t zero,
+    - Return false
+
+
