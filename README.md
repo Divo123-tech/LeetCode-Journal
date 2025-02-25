@@ -87,5 +87,16 @@ The solutions and notes to my current leetcode grind!
   - If any value is not zero:
     - Return `False`.
 - Return `True` (if all values are zero, the words are anagrams).
-
+- 
+### **Binary Search**
+- Initialize three variables: `start`, `end`.
+- While `start` is less than or equal to `end`:
+  - Initialize `mid` as the floor of `(start + end) / 2`.
+  - If the middle index is the target:
+    - Return the index.
+  - If the target is greater than the middle index:
+    - Set `start` to `mid + 1`.
+  - Else:
+    - Set `end` to `mid - 1`.
+- Return `-1` if the target is not found.
 
