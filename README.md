@@ -72,18 +72,20 @@ The solutions and notes to my current leetcode grind!
 - Return the root.
 
 ### **Valid Anagram**
--Initialize an empty dictionary to track letters used, and how many times they appear
--Iterate through the first word 
-  -if the letter is in the dictionary
-    -Increment it by 1
-  -Else instantiate it as 1
--Iterate through the second word
-  -If the letter is not in the dictionary
-    -Return false
-  -Else
-    -Subtract it by 1
--Iterate through the dictionary 
-  -if there's any values that aren’t zero,
-    - Return false
+- Initialize an empty dictionary to track letters and their counts.
+- Iterate through the first word:
+  - If the letter is already in the dictionary:
+    - Increment its count by 1.
+  - Else:
+    - Initialize it with 1.
+- Iterate through the second word:
+  - If the letter is not in the dictionary:
+    - Return `False`.
+  - Else:
+    - Decrement its count by 1.
+- Iterate through the dictionary:
+  - If any value is not zero:
+    - Return `False`.
+- Return `True` (if all values are zero, the words are anagrams).
 
 
