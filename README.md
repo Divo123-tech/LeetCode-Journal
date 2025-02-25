@@ -101,4 +101,19 @@ The solutions and notes to my current leetcode grind!
   - Else:
     - Set `end` to `mid - 1`.
 - Return `-1` if the target is not found.
+---
+### **Flood Fill**
+
+- Initialize a variable to track the old color of the chosen pixel.
+- If the old color is the same as the new color passed, return the same image.
+- Initialize a new function called `dfs`.
+- Initialize two variables:
+  - One for the length of the large array.
+  - One for the size of a nested array.
+- Check if the numbers are within a given range and if the pixel matches the old color:
+  - If not, return.
+  - If it is:
+    - Update the pixel to the new color.
+    - Run `dfs` recursively 4 times (up, down, left, right).
+- Return the updated image.
 
