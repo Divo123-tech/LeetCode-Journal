@@ -117,3 +117,13 @@ The solutions and notes to my current leetcode grind!
     - Run `dfs` recursively 4 times (up, down, left, right).
 - Return the updated image.
 
+### **Lowest Common Ancestor of Binary Tree**
+
+- While the `root` is not `null`:
+  - Check which side `p` and `q` are in.
+  - If both are **less than** the `root`, search only in the **left subtree**.
+  - If both are **greater than** the `root`, search only in the **right subtree**.
+  - Else:
+    - `p` and `q` are on separate sides of the tree.
+    - Return `root` as the **Lowest Common Ancestor**.
+- Return `null` if not found.
