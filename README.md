@@ -70,6 +70,7 @@ The solutions and notes to my current leetcode grind!
 - **Swap** the left and right of the root.
 - Call the function recursively, passing in the left and right of the root.
 - Return the root.
+---
 
 ### **Valid Anagram**
 - Initialize an empty dictionary to track letters and their counts.
@@ -87,7 +88,8 @@ The solutions and notes to my current leetcode grind!
   - If any value is not zero:
     - Return `False`.
 - Return `True` (if all values are zero, the words are anagrams).
-- 
+---
+
 ### **Binary Search**
 - Initialize three variables: `start`, `end`.
 - While `start` is less than or equal to `end`:
