@@ -1,0 +1,23 @@
+function dfs(image: number[][], sr: number, sc: number, old_color:number, new_color: number){
+    const n = image.length
+    const m = image[0].length
+    if(sr < 0 || sr >= n || sc < 0 || sc >= m || image[sr][sc] != old_color){
+        return;
+    }
+    else{
+        image[sr][sc] = new_color
+        dfs(image, sr - 1, sc, old_color, new_color)
+        dfs(image, sr, sc -1, old_color, new_color)
+        dfs(image, sr, sc + 1, old_color, new_color)
+        dfs(image, sr + 1, sc, old_color, new_color)
+    }
+}
+
+function floodFill(image: number[][], sr: number, sc: number, color: number): number[][] {
+   const old_color = image[sr][sc]
+   if(old_color == color){
+    return image
+   }
+   dfs(image,sr,sc,old_color,color)
+   return image
+};
