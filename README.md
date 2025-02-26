@@ -141,3 +141,19 @@ The solutions and notes to my current leetcode grind!
   - Return true and the max value between the left and right height
 - If it's not return false and the max value between the left and right height
 
+Linked List Cycle
+Use a tortoise hare approach
+Check the length of the linked list by checking if the head or the next of the head is null
+If so return false
+Initialize two pointers
+One fast
+One slow
+While the fast pointer has not reached null
+Check if the slow and fast pointer are equal,
+This would only be possible if there was a cycle
+Check if the next of the fast pointer is null
+Avoid a null pointer exception
+Return false as it means theres an end to the list
+Move the fast pointer twice and the slow pointer once
+Return false
+
