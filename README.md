@@ -127,3 +127,17 @@ The solutions and notes to my current leetcode grind!
     - `p` and `q` are on separate sides of the tree.
     - Return `root` as the **Lowest Common Ancestor**.
 - Return `null` if not found.
+
+### **Balanced Binary Tree**
+- Do a bottom up approach
+- Instead of starting from the root node, go all the way down to the bottom
+- Create a separate function called dfs that takes an input of root
+  - This function returns two things in a list,
+    - whether a node is balanced and the height
+- If the root is null 
+  - Return true and 0
+- Next initialize variables left and right with each being the recursive result of the dfs function
+- If the left and right are balanced and the difference in height is less than or equal to 1
+  - Return true and the max value between the left and right height
+- If it's not return false and the max value between the left and right height
+
