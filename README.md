@@ -180,3 +180,15 @@ The solutions and notes to my current leetcode grind!
 
 ---
 ### **First Bad Version**
+- Its Binary search with tracking!
+- Setup a variable to track the first bad version
+- Initialize three variables
+  - Start, end 
+- While the start is less than or equal to end 
+  - Initialize mid as the floor of start + end / 2
+  - If the middle is the bad version
+    - Change the first bad version to middle
+    - Make the high: middle - 1
+  - Else
+    - Make the low: middle + 1
+- Return first bad version
