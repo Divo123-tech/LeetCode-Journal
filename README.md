@@ -161,7 +161,9 @@ The solutions and notes to my current leetcode grind!
     - Return false as it means theres an end to the list
   - Move the fast pointer twice and the slow pointer once
 - Return false
-  
+    
+---
+
 ### **Implement Queue Using Stacks**
 - Just imagine you’re using two arrays
 - For push use unshift
@@ -175,3 +177,6 @@ The solutions and notes to my current leetcode grind!
   - Check if the top item exists in both stacks
     - If not return true
 - Return false
+
+---
+### **First Bad Version**
