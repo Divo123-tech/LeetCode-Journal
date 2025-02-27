@@ -142,6 +142,7 @@ The solutions and notes to my current leetcode grind!
 - If the left and right are balanced and the difference in height is less than or equal to 1
   - Return true and the max value between the left and right height
 - If it's not return false and the max value between the left and right height
+- Return a boolean!!!
 
 ---
 
