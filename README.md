@@ -163,3 +163,15 @@ The solutions and notes to my current leetcode grind!
 - Return false
   
 ### **Implement Queue Using Stacks**
+- Just imagine you’re using two arrays
+- For push use unshift
+- For pop put all the items in the first stack into the second stack using unshift
+  - Save the top item of the second stack
+  - Remove the top item of the second stack
+  - Put all the items in the second stack back to the first stack using unshift
+- For peek 
+  - Save the top item of the second stack
+- For empty
+  - Check if the top item exists in both stacks
+    - If not return true
+- Return false
