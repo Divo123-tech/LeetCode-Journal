@@ -194,5 +194,17 @@ The solutions and notes to my current leetcode grind!
 - Return first bad version
 
 ### **Ransom Note**
+- Initialize object to track letters used
+- Iterate words in magazine with for loop
+  - If it exists add 1
+  - If not initialize it as 1
+- Iterate words in ransom with for loop
+  - If it exists 
+    - Subtract by 1
+  - If it is 0
+    - Return false
+  - Else
+    - Return false
+- Return true if everything checks out
 
 
