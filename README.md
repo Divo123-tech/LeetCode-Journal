@@ -192,3 +192,7 @@ The solutions and notes to my current leetcode grind!
   - Else
     - Make the low: middle + 1
 - Return first bad version
+
+### **Ransom Note**
+
+
