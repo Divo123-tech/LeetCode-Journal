@@ -192,7 +192,7 @@ The solutions and notes to my current leetcode grind!
   - Else
     - Make the low: middle + 1
 - Return first bad version
-
+---
 ### **Ransom Note**
 - Initialize object to track letters used
 - Iterate words in magazine with for loop
@@ -207,4 +207,15 @@ The solutions and notes to my current leetcode grind!
     - Return false
 - Return true if everything checks out
 
-
+### **Climbing Stairs**
+- Dynamic Programming problem
+- First instinct is to use fibonacci algorithm
+  - Recurse (n-1) + (n-2)
+  - This is 2^n 
+    - Super slow
+- Use like sliding window approach
+  - Initialize two variables with value of 1
+  - Iterate n - 1 times
+    - Each time make one variable both variables added
+    - Make second variable the first variable
+  - Return the first variable
