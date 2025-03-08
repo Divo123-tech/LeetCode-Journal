@@ -235,3 +235,5 @@ The solutions and notes to my current leetcode grind!
     - Add one
     - Break the loop
 - Return the total variable
+---
+### **Reverse Linked List**
