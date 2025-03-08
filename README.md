@@ -221,3 +221,17 @@ The solutions and notes to my current leetcode grind!
   - Return the first variable
 ---
 ### **Longest Palindrome**
+- Initialize a dictionary to keep track of the number of appearances of the letters
+- Initialize a variable to keep track of the total 
+- Iterate through the string 
+  - If the letter exists in the dictionary
+    - Add the number of that by 1
+    - If the number of that string is even it means its a pair
+      - Increase the total by 2
+  - If it doesn't
+    - Initialize it by 1
+- Iterate through the dictionary
+  - If an odd exists
+    - Add one
+    - Break the loop
+- Return the total variable
