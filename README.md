@@ -237,3 +237,14 @@ The solutions and notes to my current leetcode grind!
 - Return the total variable
 ---
 ### **Reverse Linked List**
+  - Initialize a dummy variable for a null list node
+  - Initialize a tail which is the dummy variable
+  - Iterate through the linked list using a while loop
+    - Initialize two temp variables
+      - The first temp variable is for the current head
+      - The second temp variable is for the head’s next 
+        - This is important to preserve the next when you modify the temp
+    - Make the temp.next the current tail.next
+    - Make the tail.next the current head by assigning it to temp
+    - Move along the linked list by assigning head to the second variable tracking the head’s next
+  - Return dummy.next
