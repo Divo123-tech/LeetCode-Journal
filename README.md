@@ -206,7 +206,7 @@ The solutions and notes to my current leetcode grind!
   - Else
     - Return false
 - Return true if everything checks out
-
+---
 ### **Climbing Stairs**
 - Dynamic Programming problem
 - First instinct is to use fibonacci algorithm
@@ -219,3 +219,5 @@ The solutions and notes to my current leetcode grind!
     - Each time make one variable both variables added
     - Make second variable the first variable
   - Return the first variable
+---
+### **Longest Palindrome**
