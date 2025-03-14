@@ -250,3 +250,12 @@ The solutions and notes to my current leetcode grind!
   - Return dummy.next
 ---
 ### **Majority Element**
+- Initialize a dictionary to store instance of numbers appearing
+- If the array is of length one return the first element of the array
+- Iterate through nums array
+  - If nums is in dictionary
+    - Add one
+    - Check if nums is more than length/2
+      - Return num
+- Initialize num in the dictionary
+
