@@ -260,3 +260,28 @@ The solutions and notes to my current leetcode grind!
 - Initialize num in the dictionary
 ---
 ### **Add Binary**
+- Add padding on the shorter string so that both are the same length using for loop
+- Initialize carry over boolean variable
+- Initialize final string variable
+- Iterate backwards
+  - If both are 0
+    - If carry over is true
+      - Add 1
+      - Set carry over as false
+    - Else
+      - Add 0
+  - If both are 1
+    - If carry over is true
+      - Add 1
+    - Else
+      - Add 0
+      - Set carry over as true
+  - Else
+    - If carry over is true
+      - Add 0
+    - Else
+      - Add 1
+      - Set carry over to false
+  - Check if carry over is true
+    - If so add 1 to the start of the string
+  - Return final string
