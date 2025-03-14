@@ -248,3 +248,5 @@ The solutions and notes to my current leetcode grind!
     - Make the tail.next the current head by assigning it to temp
     - Move along the linked list by assigning head to the second variable tracking the head’s next
   - Return dummy.next
+---
+### **Majority Element**
