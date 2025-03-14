@@ -258,4 +258,5 @@ The solutions and notes to my current leetcode grind!
     - Check if nums is more than length/2
       - Return num
 - Initialize num in the dictionary
-
+---
+### **Add Binary**
