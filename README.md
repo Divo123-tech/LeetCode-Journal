@@ -287,3 +287,11 @@ The solutions and notes to my current leetcode grind!
   - Return final string
 ---
 ### **Diameter of a Binary Tree**
+- Initialize a longestTotal variable to 0
+- Create a dfs function to iterate through the nodes of the tree
+- Check if the root is null
+- If null return 0
+- Assign two variables the result of the recursion of the left and right children
+- Assign longestTotal between the max of longestTotal or the leftDepth + rightDepth
+- Set longest to be leftDepth+rightDepth
+- Return longest + 1
