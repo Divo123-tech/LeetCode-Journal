@@ -285,3 +285,5 @@ The solutions and notes to my current leetcode grind!
   - Check if carry over is true
     - If so add 1 to the start of the string
   - Return final string
+---
+### **Diameter of a Binary Tree**
