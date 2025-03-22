@@ -12,7 +12,6 @@
  *     }
  * }
  */
-
 function diameterOfBinaryTree(root: TreeNode | null): number {
     let longestTotal = 0
     function dfs(root){
