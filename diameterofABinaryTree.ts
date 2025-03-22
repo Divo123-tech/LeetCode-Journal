@@ -13,8 +13,11 @@
  * }
  */
 function diameterOfBinaryTree(root: TreeNode | null): number {
+    //initialize total variable
     let longestTotal = 0
+    //create dfs function
     function dfs(root){
+    //base case
     if (root == null){
         return 0;
     }
