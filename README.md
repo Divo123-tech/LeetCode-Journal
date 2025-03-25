@@ -297,3 +297,11 @@ The solutions and notes to my current leetcode grind!
 - Return longest + 1
 ---
 ### **Middle of the Linked List**
+- Initialize two variables as both the head
+  - Slow pointer
+  - Fast pointer
+- While the fast pointer and the fast pointer’s next is not null
+- Make the slow pointer move by one
+- Make the fast pointer move by two
+- Return the slow pointer
+
