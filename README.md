@@ -304,4 +304,6 @@ The solutions and notes to my current leetcode grind!
 - Make the slow pointer move by one
 - Make the fast pointer move by two
 - Return the slow pointer
-
+---
+### **Maximum Depth of a Binary Tree**
+-
