@@ -306,4 +306,14 @@ The solutions and notes to my current leetcode grind!
 - Return the slow pointer
 ---
 ### **Maximum Depth of a Binary Tree**
+  - Initialize a variable to track the max depth as 1
+  - Initialize a dfs function to traverse the tree that takes the root
+    - If the root is null return 0
+    - Assign variables for the recursive result of the left and right children
+    - Assign a longest variable which is the max between the left and right plus 1
+    - If the longest is higher than max depth
+      - Change max depth
+    - Return longest
+- Return dfs(root)
+
 -
