@@ -295,3 +295,5 @@ The solutions and notes to my current leetcode grind!
 - Assign longestTotal between the max of longestTotal or the leftDepth + rightDepth
 - Set longest to be leftDepth+rightDepth
 - Return longest + 1
+---
+### **Middle of the Linked List**
