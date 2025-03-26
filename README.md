@@ -317,3 +317,10 @@ The solutions and notes to my current leetcode grind!
 - Return dfs(root)
 ---
 ### **Contains Duplicates**
+- Initialize a dictionary to keep track of the numbers that occur
+- Iterate through the numbers array
+- If the numbers is in the dictionary 
+  - Return true
+- Initialize the numbers key
+- Return false
+
