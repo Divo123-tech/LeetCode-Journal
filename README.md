@@ -325,3 +325,13 @@ The solutions and notes to my current leetcode grind!
 - Return false
 ---
 ### **Roman to Integer**
+- Initialize a dictionary to map the roman letters to integer
+- Initialize a variable to track the total
+- Initialize a variable to track the last value
+- Iterate through the letters backwards
+- If the last value is less than the current letter’s value
+  - subtract it from the total
+- Else 
+  - Add it to the total
+- Assign the last value to the current letter’s value
+- Return total
