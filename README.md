@@ -335,3 +335,5 @@ The solutions and notes to my current leetcode grind!
   - Add it to the total
 - Assign the last value to the current letter’s value
 - Return total
+---
+### **Backspace String Compare**
