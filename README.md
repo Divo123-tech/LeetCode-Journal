@@ -347,3 +347,10 @@ The solutions and notes to my current leetcode grind!
 - Return whether the two modified strings are equal
 ---
 ### **Counting Bits**
+- Initialize an array of n+1 size filled with 0s
+- Initialize an offset variable as 1 
+- Iterate from 1 to number incluse (<=)
+  - If the offset multiplied by two is equal to i
+    - Set offset to i
+  - Set the array at index i to 1 + array at index i - offset
+- THIS IS DYNAMIC PROGRAMMING
