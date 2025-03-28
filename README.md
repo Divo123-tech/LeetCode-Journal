@@ -345,3 +345,5 @@ The solutions and notes to my current leetcode grind!
 - Add the letter to the modified string
 - Repeat this for the other input string
 - Return whether the two modified strings are equal
+---
+### **Counting Bits**
