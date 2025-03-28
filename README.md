@@ -337,3 +337,11 @@ The solutions and notes to my current leetcode grind!
 - Return total
 ---
 ### **Backspace String Compare**
+- Initialize an empty string to hold the modified string
+- Iterate through string
+  - If the string is a # then remove the last character of the string
+    - Like a stack
+  - Else
+- Add the letter to the modified string
+- Repeat this for the other input string
+- Return whether the two modified strings are equal
