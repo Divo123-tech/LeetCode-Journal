@@ -356,3 +356,10 @@ The solutions and notes to my current leetcode grind!
 - THIS IS DYNAMIC PROGRAMMING
 ---
 ### **Same Tree**
+- 3 liner
+- Do base case
+  - If p and q are both null
+    - Return true
+- If p or q is null or p.val and q.val is not equal 
+  - Return false
+- Recursively call the function with the left and right subtree
