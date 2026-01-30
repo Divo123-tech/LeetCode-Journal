@@ -376,3 +376,16 @@ The solutions and notes to my current leetcode grind!
   - if the current value of the array is the target just skip
   - if it is not replace nums[k] with nums[index], and add 1 to k
 - return k
+---
+### **Remove Duplicates from a sorted array**
+- Two pointer approach
+- Almost identical to remove element
+- Initialize a variable (k) that starts at 0, this will keep track of the number of elements that are unique
+- Initialize a variable (currentNum) that keeps track of the current number
+- Loop through the array
+  - if the current value of the array is the current number just move on
+  - if it is not
+    - replace nums[k] with nums[index]
+    - add 1 to k
+    - replace currentNum with nums[index]
+- return k
