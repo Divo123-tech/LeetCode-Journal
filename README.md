@@ -363,3 +363,8 @@ The solutions and notes to my current leetcode grind!
 - If p or q is null or p.val and q.val is not equal 
   - Return false
 - Recursively call the function with the left and right subtree
+---
+### **Search Insert Position**
+- its just binary search with a twist!
+- Write binary search but return left if number not found
+- the logic is if the number is not in the list then the left and right are switched next to each other, and so just return left
