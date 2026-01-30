@@ -368,3 +368,11 @@ The solutions and notes to my current leetcode grind!
 - its just binary search with a twist!
 - Write binary search but return left if number not found
 - the logic is if the number is not in the list then the left and right are switched next to each other, and so just return left
+---
+### **Remove Element**
+- Two pointer approach
+- Initialize a variable (k) that starts at 0, this will keep track of the number of elements that are NOT the target
+- Loop through the array
+  - if the current value of the array is the target just skip
+  - if it is not replace nums[k] with nums[index], and add 1 to k
+- return k
