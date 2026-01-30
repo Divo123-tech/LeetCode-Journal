@@ -389,3 +389,12 @@ The solutions and notes to my current leetcode grind!
     - add 1 to k
     - replace currentNum with nums[index]
 - return k
+---
+### **Find the Index of the First Occurrence in a String**
+ - Nested for loop
+   - loop through haystack
+   - inside loop through needle
+     -  have an if statement that checks if needle[n] == haystack[h + n]
+     -  if n == needle.length - 1
+       - this means the entire substring is found
+       - return h 
